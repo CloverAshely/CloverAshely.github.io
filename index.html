@@ -242,6 +242,127 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/11/java基础篇之JDBC/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="刘志强">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Clover">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/05/11/java基础篇之JDBC/" itemprop="url">java基础篇之JDBC</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-11T21:50:36+08:00">
+                2018-05-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>JDBC：1.官网下载 connect J 压缩包解压<br>    2.打开idea（CTRL+ AIT+SHIFT+s）的project structure，Modules ————&gt; dependencies 添加JARS or directories,选择jar包路径<br>    3.编辑  private static String driver=”com.mysql.cj.jdbc.Driver”;//获得驱动类<br>            private static String url=”jdbc:mysql://localhost:3306/yiibaidb?serverTimezone=UTC&amp;useSSL=false”;//数据库地址资源。后面新增版本变更，不加会警告<br>            private static String user=”root”;<br>            private static String password=”123456”;<br>    4.创建连接时，需要3个接口：connection ,PreparedStatement,ResultSet<br>        PreparedStatement:预处理<br>        Statement：批处理时使用<br>        CallableStatement：用于调用存储过程<br>        connection：建立数据库的连接<br>        ResultSet：结果集</p>
+<p>关于数据库的基本操作语句：<br>. 查询 : 查询所有数据 : select * from table_name;<br>.添加数据 : Insert into 表名 [(字段1 , 字段2 , ….)] values (值1 , 值2 , …..);<br>Update table_name set 字段名=’新值’ [, 字段2 =’新值’ , …..][where id=id_num] [order by 字段 顺序]<br>　 删除整个表中的信息 : delete from table_name;<br>　　 删除表中指定条件的语句 : delete from table_name where 条件语句 ; 条件语句如 : id=3; </p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/10/pagejava基础学习之MySQL安装/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -901,7 +1022,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
